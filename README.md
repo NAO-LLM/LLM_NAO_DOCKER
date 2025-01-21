@@ -6,8 +6,7 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre](#sobre)
    * [Pré-Requisitos](#pré-requisitos)
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
+   * [Instalação](#instalação)
 <!--te-->
 
 ## Sobre
