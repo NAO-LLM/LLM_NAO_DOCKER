@@ -17,6 +17,7 @@ Para criar um container do projeto, é preciso clonar o projeto em uma pasta, is
 `git clone https://github.com/NAO-LLM/LLM_NAO_DOCKER.git`<br/><br/>
 Também será preciso ter o Docker Desktop instalado no computador e baixar o arquivo do pynaoqi, caso não tenha, baixe-os por estes links: [docker](https://www.docker.com/products/docker-desktop/) [pynaoqi](https://community-static.aldebaran.com/resources/2.8.6/pynaoqi-python2.7-2.8.6.23-linux64-20191127_152327.tar.gz).
 Além disso, abra o arquivo NAO27.py e troque a variável "ip" pelo ip do seu NAO, é possivel descobrir isso apertando o botão no peito do NAO.
+Por fim, é necessário ter um sistema que funcione na arquitetura x86 ou consiga simula-la.
 
 ## Instalação
 Para construir e iniciar o container da aplicação, será necessário, primeiramente, abrir o programa do Docker Desktop e deixa-lo aberto, então abrir o terminal e navegar até a pasta clonada utilizando o comando:<br/><br/>
