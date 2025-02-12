@@ -22,7 +22,7 @@ Além disso, abra o arquivo NAO27.py e troque a variável "ip" pelo ip do seu NA
 Para construir e iniciar o container da aplicação, será necessário, primeiramente, abrir o programa do Docker Desktop e deixa-lo aberto, então abrir o terminal e navegar até a pasta clonada utilizando o comando:<br/><br/>
 `cd .../LLM_NAO_DOCKER`<br/><br/>
 Então construimos o container utilizando o comando:<br/><br/>
-`docker build -t llm_nao_docker .`<br/><br/>
+`docker buildx build --platform linux/amd64 -t llm_nao_docker .`<br/><br/>
 Assim o container começará o processo de construção, e ao fim, poderemos iniciar o container com o comando:<br/><br/>
 `docker run --platform linux/amd64 -it llm_nao_docker`<br/><br/>
 Com o container rodando e aberto em seu terminal, é possivel transitar entre os programas rodados em Python 3 e Python 2.7 utilizando o atalho `Ctrl+B` e em seguida pressionar os numerais `0` e `1` para transitar entre os terminais do container.
